@@ -24,17 +24,16 @@ for n in x:
   print(n)
 
 # vẽ tam giác
-mang = int(input("nhap so luong: "))
-for cdoc in range(mang):
- for cngang in range(mang):
-     if cngang == range(mang) or cngang < cdoc or cngang == cdoc :
-      print("*",end="")
- print()    
+print("     *       ")
+print("    ***      ")
+print("   *****     ")
 
-# hinh chu nhat dat ruotruot
-chieu_dai = int(input("nhap chieu dai: "))
-chieu_rong = int(input("nhap chieu rong: "))
-for cdai in range(chieu_dai):
-    for crong in range(chieu_rong):
-        print("*",end="")
-    print()
+# vẽ hình chữ nhật
+print("***********")
+print("***********")
+print("***********")
+
+# vẽ hình chữ nhật rỗng ruột
+print("***********")
+print("*         *")
+print("***********")
